@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THE BOYS</title>
+
+    <style>
+
+        * {
+
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+
+
+        }
+        .text {
+            font-family: Courier New;
+            font-size: 20px;
+            text-align: center;
+            font-weight: bolder;
+            background-color: lightblue;
+            color: black;
+            border-radius: 15px;
+            margin: 5px 10px;
+            border: 2px dashed black;
+
+
+        }
+        .col {}
+
+
+        nav ul li {
+            list-style: none;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+
+
+
+
+        .image {
+            border-radius: 10px;
+            height: 650px;
+            margin: 5px 0px 5px 13px;
+            border: 2px solid black;
+
+
+
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .foo {
+            text-align: center;
+            background-color: grey;
+            color: white;
+            font-family: Courier;
+
+            font-weight: bolder;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 10px 50px 5px;
+        }
+
+
+@media screen and (min-width:394px) {
+
+
+            * {
+                background-color: rgba(270,244,244,1);
+                  }
+
+            .image {
+                border-radius: 10px;
+                height: 900px;
+                margin: 5px 5px 13px 400px;
+                border: 2px solid black;
+
+
+
+
+            }
+
+        </style>
+
+
+
+    </head>
+
+
+
+    <body>
+
+        <div class="col">
+            <nav>
+
+                <ul>
+
+                    <li><a href="index.html"><h1 class="text"> PRESENTING TO YOU: <br />THE NAVODAYANS😎</h1></a>
+                    </li>
+
+
+                </ul>
+            </nav>
+            <div>
+                <p class="foo center">
+                    THE FLASH
+                </p>
+            </div>
+
+
+            <div class="around">
+                <img class="image" src="pic1.jpg" alt="" />
+                <div>
+                    <p class="foo center">
+                        THE HI-FI MAN
+                    </p>
+                </div>
+
+            </div>
+            <div class="around">
+                <img class="image" src="pic6.jpg" alt="" style="height:300px; margin-left:40px;" />
+                <div>
+                    <p class="foo center">
+                        THE KILLER
+                    </p>
+                </div>
+
+                <div class="around">
+                    <img class="image" src="pic2.jpg" alt="" />
+                </div>
+                <div>
+                    <p class="foo center">
+                        THE GAMER
+                    </p>
+                </div>
+
+
+                <div class="around">
+                    <img class="image" src="pic3.jpg" alt="" style="height:300px; margin-left:40px;" />
+                </div>
+                <div>
+                    <p id="icon" class="foo center">
+                        THE DEVA😎
+                    </p>
+                </div>
+
+
+                <div class="around">
+                    <img class="image" src="pic4.jpeg" alt="" />
+                </div>
+            </div>
+            <div>
+                <p class="foo center">
+                    RETURN OF THE HI-FI MAN
+                </p>
+            </div>
+
+
+            <div class="around">
+                <img class="image" src="icon.jpg" alt="" style="height:300px; margin-left:40px;" />
+            </div>
+            <div>
+                <p class="foo center">
+                    THE BLURR
+                </p>
+            </div>
+
+
+            <div class="around">
+                <img class="image" src="pic7.jpg" alt="" />
+            </div>
+        </div>
+
+        <div>
+            <p class="foo center">
+                THE WANTED
+            </p>
+        </div>
+
+
+        <div class="around">
+            <img class="image" src="pic8.jpg" alt="" style="height:300px; margin-left:40px;" />
+        </div>
+
+
+
+
+    </div>
+
+    <audio id="audio">
+        <source src="song.mp3" type="audio/mp3" />
+    </audio>
+
+    <div>
+        <a class="foo center">
+            Now Click On THE DEVA👆🏻
+        </a>
+    </div>
+
+
+
+
+    <script type="text/javascript" charset="utf-8">
+
+        let icon = document.getElementById("icon");
+        let audio = document.getElementById("audio");
+        icon.onclick = function() {
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+
+        }
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
